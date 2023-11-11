@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.aviral.sightspotter"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.aviral.sightspotter"
@@ -66,4 +66,24 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    val cameraxVersion = "1.3.0-rc01"
+
+    /**
+     * CameraX
+     * */
+    implementation("androidx.camera:camera-core:$cameraxVersion")
+    implementation("androidx.camera:camera-camera2:$cameraxVersion")
+    implementation("androidx.camera:camera-lifecycle:$cameraxVersion")
+    implementation("androidx.camera:camera-video:$cameraxVersion")
+
+    implementation("androidx.camera:camera-view:$cameraxVersion")
+    implementation("androidx.camera:camera-extensions:$cameraxVersion")
+
+    /**
+     * Tensor Flow Lite
+     * */
+    implementation("org.tensorflow:tensorflow-lite-task-vision:0.4.0")
+    implementation("org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.4.0")
+    implementation("org.tensorflow:tensorflow-lite-gpu:2.9.0")
 }
