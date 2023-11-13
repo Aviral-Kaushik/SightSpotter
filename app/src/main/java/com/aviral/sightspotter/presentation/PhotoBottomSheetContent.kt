@@ -29,11 +29,16 @@ fun PhotoBottomSheetContent(
     if (bitmaps.isEmpty()) {
 
         Box(
-            modifier = Modifier.padding(16.dp),
+            modifier = Modifier
+                .padding(16.dp)
+                .background(Color.Black),
             contentAlignment = Alignment.Center
         ) {
 
-            Text(text = "There are no photos yet")
+            Text(
+                text = "There are no photos yet",
+                color = Color.Black
+            )
 
         }
 
