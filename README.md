@@ -14,10 +14,8 @@ SightSpotter is an Android application that utilizes advanced image recognition 
 
 Check out this video demo to see SightSpotter in action!
 
-<video width="560" height="315" controls>
-  <source src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/video/SightSpotter.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<iframe width="560" height="315" src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/video/SightSpotter.mp4" frameborder="0" allowfullscreen></iframe>
+
 
 ## Installation
 
