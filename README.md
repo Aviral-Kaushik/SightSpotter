@@ -1,6 +1,6 @@
 # SightSpotter
 
-SightSpotter is an Android application that utilizes advanced image recognition technology to identify landmarks captured by your phone's camera in real time. Developed using Android Studio, Kotlin, CameraX, and AI, SightSpotter aims to provide users with an engaging and informative way to discover and learn about various landmarks.
+SightSpotter is an Android application that utilizes advanced image recognition technology to identify landmarks captured by your phone's camera in real-time. Developed using Android Studio, Kotlin, CameraX, and AI, SightSpotter aims to provide users with an engaging and informative way to discover and learn about various landmarks.
 
 ## Features
 
@@ -9,6 +9,21 @@ SightSpotter is an Android application that utilizes advanced image recognition 
 - **Kotlin & Android Studio**: Developed using Kotlin programming language and Android Studio IDE.
 - **AI-Powered Recognition**: Employs advanced AI algorithms to recognize landmarks efficiently.
 - **Informative Results**: Provides information and details about recognized landmarks.
+
+- ## Screenshots
+
+<p>
+  <img src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/images/Picture1.jpg" width="300px" style="padding: 10px" height="auto">
+  <img src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/images/Picture2.jpg" width="300px" style="padding: 10px" height="auto">
+  <img src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/images/Picture3.jpg" width="300px" style="padding: 10px" height="auto">
+  <img src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/images/Picture4.jpg" width="300px" style="padding: 10px" height="auto">
+  <img src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/images/Picture5.jpg" width="300px" style="padding: 10px" height="auto">
+  <img src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/images/Picture6.jpg" width="300px" style="padding: 10px" height="auto">
+  <img src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/images/Picture7.jpg" width="300px" style="padding: 10px" height="auto">
+  <img src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/images/Picture8.jpg" width="300px" style="padding: 10px" height="auto">
+  <img src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/images/Picture9.jpg" width="300px" style="padding: 10px" height="auto">
+  <img src="https://github.com/Aviral-Kaushik/SightSpotter/blob/main/images/Picture10.jpg" width="300px" style="padding: 10px" height="auto">
+</p>
 
 - ## Video Demo
 
