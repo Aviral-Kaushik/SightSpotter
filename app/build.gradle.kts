@@ -10,9 +10,9 @@ android {
     defaultConfig {
         applicationId = "com.aviral.sightspotter"
         minSdk = 24
-        targetSdk = 33
-        versionCode = 1
-        versionName = "1.0"
+        targetSdk = 34
+        versionCode = 2
+        versionName = "2.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
