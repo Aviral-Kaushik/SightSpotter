@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace = "com.aviral.sightspotter"
-    compileSdk = 34
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.aviral.sightspotter"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 2
-        versionName = "2.0"
+        targetSdk = 36
+        versionCode = 22
+        versionName = "2.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -89,7 +89,11 @@ dependencies {
     /**
      * Tensor Flow Lite
      * */
-    implementation("org.tensorflow:tensorflow-lite-task-vision:0.4.0")
-    implementation("org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.4.0")
-    implementation("org.tensorflow:tensorflow-lite-gpu:2.9.0")
+//    implementation("org.tensorflow:tensorflow-lite-task-vision:0.4.4")
+//    implementation("org.tensorflow:tensorflow-lite-gpu-delegate-plugin:0.4.4")
+//    implementation("org.tensorflow:tensorflow-lite-gpu:2.17.0")
+
+    implementation("org.tensorflow:tensorflow-lite:2.13.0")
+    implementation("org.tensorflow:tensorflow-lite-gpu:2.13.0")
+    implementation("org.tensorflow:tensorflow-lite-task-vision:0.4.4")
 }
